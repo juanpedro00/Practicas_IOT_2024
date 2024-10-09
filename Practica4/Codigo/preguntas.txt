@@ -1,0 +1,12 @@
+1. ¿Qué sucede cuando la temperatura supera el umbral definido en el código?
+Se prende el led en ambos, y nos informa la pantalla que se supero la pantalla y hay una alerta.
+
+2. ¿Qué cambios podrías hacer en el código si quisieras ajustar el umbral de
+temperatura?
+
+Cambiando TEMP_THRESHOLD en la linea 28
+
+3. ¿Cómo se logró la comunicación bidireccional entre los ESP32 y por qué es
+importante que ambos dispositivos puedan enviarse información de vuelta?
+
+Por medio de bluetooth, es importante para que ambos lados puedan tener la informacion actualizada.
